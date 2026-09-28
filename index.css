@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: grey;
+    font-family:monospace;
+}
+#home{
+    background-color: rgb(75, 95, 95);
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: -1vh;
+}
+#home a{
+    color: aqua;
+    text-decoration-line: underline;
+    text-underline-offset: 7px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+.head a{
+    font-family: "Edu QLD Hand",cursive;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    font-size: 25px;
+}
+.head a, .nav-bar, .nav-bar a {
+    text-decoration: none;
+    color: grey;
+}
+.nav-bar{
+    width: 120vh;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8vh;
+    margin-right: 2vh;
+}
+.main{
+    margin-left: 18vh;
+    padding-top: 70px;
+}
+.title-1{
+    font-size: 15px;
+    margin-left: 2vh;
+    color: aqua;
+    margin-top: 7vh;
+}
+.name{
+    font-size: 20vh;
+    margin-top: 8vh;
+}
+.name-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name-2{
+    margin-top: -4vh;
+    color: aqua;
+}
+.name-1,.head a{
+    color: white;
+}
+.summary-1{
+    margin-left: 2vh;
+    text-align: justify;
+    margin-right: 35vh;
+    line-height: 1.6;
+}
+.summary-2{
+    margin-top: 10vh;
+    margin-left: 2vh;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35vh;
+}
+.summary-2 button{
+    border: 0px solid;
+    background-color: aqua;
+    padding: 3vh 5vh;
+    border-radius: 10px;
+}
+.btn-1{
+    margin-right: 3vh;
+    color: black;
+}
+#btn-2{
+    background-color: grey;
+    color: white;
+}
+.summary-2 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80vh;
+    margin-top: -1vh;
+    text-align: right;
+}
+.summary-2 span{
+    color: white;
+    font-weight: bold;
+    font-size: 5vh;
+}
+.foot{ 
+    margin-top: 10vh;
+    margin-left: 20vh;
+    margin-right: 35vh;
+    background-color: rgb(28, 25, 25);
+    padding: 7vh;
+    border-radius: 3vh;
+    margin-bottom: 10vh;
+}
+.p-1{
+    color: aqua;
+    margin-bottom: 2vh;
+}
+.p-2{
+    color: white;
+    margin-bottom: 2vh;
+}
